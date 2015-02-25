@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.license 		= 'COMMERCIAL'
   s.author 			= 'AdTech Inc.'
-  s.source 			= { :http => "https://dev.januschka.com/ADTECHMobileSDK_iOS_#{s.version}.zip" }
+  s.source 			= { :http => "http://dev.januschka.com/ADTECHMobileSDK_iOS_#{s.version}.zip" }
   #s.platform 		= :ios
   
   s.frameworks     	= 'ADTECHMobileSDK'
