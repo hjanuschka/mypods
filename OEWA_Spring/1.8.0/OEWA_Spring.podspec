@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.source_files   	= '*.{h}'
 
   s.resource 		= 'OWAResources.bundle'
-  s.preserve_paths = 'spring-appsensor-fat.a'
+  s.preserve_paths = 'libspring-appsensor-fat.a'
   
-  #s.vendored_libraries = "spring-appsensor-fat.a"
+  s.vendored_libraries = "libspring-appsensor-fat.a"
   
   
   s.public_header_files = '*.h'
@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.xcconfig  =  { 'HEADER_SEARCH_PATHS' => './Pods/OEWA_Spring', 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/OEWA_Spring"' }
 
 
-  s.libraries 		= 'z', 'xml2', 'spring-appsensor-fat.a"'
+  s.libraries 		= 'z'
 
 end
