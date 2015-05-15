@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.license 		= 'COMMERCIAL'
   s.author 			= 'hjanuschka @krone.at'
-  s.source 			= { :http => "http://dev.januschka.com/spring-appsensor-iOS-oewa-1.8.0.zip" }
+  s.source 			= { :http => "http://dev.januschka.com/spring-appsensor-iOS-oewa-1.8.0-krone.zip" }
   #s.platform 		= :ios
   
   
