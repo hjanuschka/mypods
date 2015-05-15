@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name 			= "OEWA_Spring"
-  s.version 		= "1.8.15"
+  s.version 		= "1.8.0"
   s.summary 		= "OEWA Spring SDK IOS"
   s.description 	= "The OEWA Spring SDK for IOS"
   s.homepage 		= "http://oewa.at"
