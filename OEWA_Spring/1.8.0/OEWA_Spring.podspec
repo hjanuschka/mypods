@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name 			= "OEWA_Spring"
-  s.version 		= "1.8.2"
+  s.version 		= "1.8.5"
   s.summary 		= "OEWA Spring SDK IOS"
   s.description 	= "The OEWA Spring SDK for IOS"
   s.homepage 		= "http://oewa.at"
 
   s.license 		= 'COMMERCIAL'
   s.author 			= 'hjanuschka @krone.at'
-  s.source 			= { :http => "http://dev.januschka.com/oewa_spring_1.8.2.zip" }
+  s.source 			= { :http => "http://dev.januschka.com/oewa_spring_1.8.5.zip" }
   #s.platform 		= :ios
   
   
