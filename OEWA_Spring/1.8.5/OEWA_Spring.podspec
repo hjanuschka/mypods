@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   
   
   s.public_header_files = '*.h'
-  s.framework 		= %w{AdSupport}
+  s.framework 		= 'AdSupport'
   
   s.xcconfig  =  { 'HEADER_SEARCH_PATHS' => './Pods/OEWA_Spring', 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/OEWA_Spring"' }
 
