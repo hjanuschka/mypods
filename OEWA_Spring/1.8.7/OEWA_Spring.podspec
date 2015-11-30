@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name 			= "OEWA_Spring"
-  s.version 		= "1.8.7"
+  s.version 		= "1.8.7.1"
   s.summary 		= "OEWA Spring SDK IOS"
   s.description 	= "The OEWA Spring SDK for IOS"
   s.homepage 		= "http://oewa.at"
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.source_files   	= '*.{h}'
 
   s.resource 		= 'OWAResources.bundle'
-  s.preserve_paths = 'libspring-appsensor-fat.a'
+  s.preserve_paths = 'libspring-appsensor-device.a'
   
-  s.vendored_libraries = "libspring-appsensor-fat.a"
+  s.vendored_libraries = "libspring-appsensor-device.a"
   
   
   s.public_header_files = '*.h'
