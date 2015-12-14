@@ -10,11 +10,12 @@ Pod::Spec.new do |s|
   s.source 			= { :http => "http://dev.januschka.com/ADTECHMobileSDK_iOS_3.8.zip" }
   #s.platform 		= :ios
   
-  s.frameworks     	= 'ADTECHMobileSDK'
-  s.preserve_paths 	= 'Framework'
-  s.source_files   	= 'Framework/ADTECHMobileSDK.framework/Headers/*.{h}'
+  #s.frameworks     	= 'ADTECHMobileSDK'
+  s.vendored_frameworks = 'Framework/ADTECHMobileSDK.framework'
+  #s.preserve_paths 	= 'Framework'
+  #s.source_files   	= 'Framework/ADTECHMobileSDK.framework/Headers/*.{h}'
   
-  s.resources 		= 'Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'
+  #s.resources 		= 'Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'
   #s.resource_bundles = {
   #  'ADTECHMobileSDK' => ['Framework/ADTECHMobileSDK.framework/ADTECHMobileSDK.bundle'] 
   #}
