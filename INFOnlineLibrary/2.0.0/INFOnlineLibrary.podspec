@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   
   
   s.preserve_paths = %w{INFOnlineLibrary}
-  s.framework 		= 'AdSupport'
+  s.frameworks 		= 'AdSupport', 'INFOnlineLibrary'
+  s.script_phase = { :name => '[INFOnline] Install Frameworks ', :script => 'Pods/INFOnlineLibrary/INFONlineLibrary/copy-frameworks.sh' } }
  
 end
